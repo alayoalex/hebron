@@ -86,8 +86,8 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 // import EventLandingPage from "demos/EventLandingPage.js";
 // import HotelTravelLandingPage from "demos/HotelTravelLandingPage.js";
 // import AgencyLandingPage from "demos/AgencyLandingPage.js";
-// import SaaSProductLandingPage from "demos/SaaSProductLandingPage.js";
-import RestaurantLandingPage from "demos/RestaurantLandingPage.js";
+import SaaSProductLandingPage from "demos/SaaSProductLandingPage.js";
+//import RestaurantLandingPage from "demos/RestaurantLandingPage.js";
 // import ServiceLandingPage from "demos/ServiceLandingPage.js";
 // import HostingCloudLandingPage from "demos/HostingCloudLandingPage.js";
 
@@ -110,7 +110,7 @@ function App() {
   // return <AnimationRevealPage disabled></AnimationRevealPage>;
   return (
     // <HotelTravelLandingPage />
-    <RestaurantLandingPage />
+    <SaaSProductLandingPage />
     // <Router>
     //   <Switch>
     //     <Route path="/components/:type/:subtype/:name">
